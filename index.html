@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <title>Ocean Color Scheme</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 90px;
+    }
+    .menu_breakfast,.menu_lunch,.menu_dinner {
+      width: 400px;
+      height: 550px;
+      color: #ffffff;
+      padding: 20px;
+      margin: 10px;
+      border: 4px solid #004d40;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      margin-top: 0;
+      text-align: center;
+      padding-bottom: 10px;      
+      border-collapse: collapse;
+      background-color: rgba(0, 0, 0, 0.4);
+      text-shadow: 3px 3px 12px rgba(0,0,0);
+      width: max-content;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;     
+      border-radius: 10px; 
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      overflow: clip;
+    }
+
+    th, td {
+      padding: 25px;
+      text-align: left;            
+    }
+
+    tr {        
+      border-bottom: 1pt solid black;
+    }
+    tr:last-child
+    {
+      border-bottom: none;
+    }
+
+    th {
+      background-color: rgba(0, 51, 43, 0.8);
+    }
+    .menu_breakfast th,.menu_breakfast h2{
+        color: rgb(184, 161, 35)
+    }
+    .menu_dinner th,.menu_dinner h2{
+        color: rgb(68, 233, 137)
+    }
+    .menu_lunch th,.menu_lunch h2{
+        color: rgb(0, 183, 255)
+    }
+    .menu_breakfast {background-image: url(https://cdn.pixabay.com/photo/2015/04/10/00/41/food-715541_960_720.jpg);}
+    .menu_dinner {background-image: url(https://cdn.pixabay.com/photo/2016/04/06/17/45/salmon-1312372_960_720.jpg);}
+    .menu_lunch {background-image: url(https://cdn.pixabay.com/photo/2021/05/18/15/15/pasta-6263653_960_720.jpg);}
+</style>
+</head>
+<body>
+    <div class="menu_breakfast">
+        <h2>Breakfast Menu</h2>
+        <table>
+          <tr><th>Food</th><th>Price</th></tr>
+          <tr><td>Pancakes with Syrup</td><td>$3.99</td></tr>
+          <tr><td>Scrambled Eggs & Toast</td><td>$3.99</td></tr>
+          <tr><td>Fresh Fruit Bowl</td><td>$5.99</td></tr>
+          <tr><td>Coffee or Tea</td><td>$0.99</td></tr>
+          <tr><td>Orange Juice</td><td>$1.99</td></tr>
+        </table>
+      </div>
+    
+      <div class="menu_lunch">
+        <h2>Lunch Menu</h2>
+        <table>
+          <tr><th>Food</th><th>Price</th></tr>
+          <tr><td>Grilled Chicken Sandwich</td><td>$6.99</td></tr>
+          <tr><td>Caesar Salad</td><td>$5.49</td></tr>
+          <tr><td>French Fries</td><td>$2.99</td></tr>
+          <tr><td>Iced Tea</td><td>$1.49</td></tr>
+          <tr><td>Lemonade</td><td>$1.49</td></tr>
+        </table>
+      </div>
+    
+      <div class="menu_dinner">
+        <h2>Dinner Menu</h2>
+        <table>
+          <tr><th>Food</th><th>Price</th></tr>
+          <tr><td>Steak with Vegetables</td><td>$14.99</td></tr>
+          <tr><td>Spaghetti Bolognese</td><td>$11.99</td></tr>
+          <tr><td>Garlic Bread</td><td>$2.99</td></tr>
+          <tr><td>Red Wine</td><td>$5.99</td></tr>
+          <tr><td>Chocolate Cake</td><td>$4.49</td></tr>
+</div> 
+</body>
+</html>
